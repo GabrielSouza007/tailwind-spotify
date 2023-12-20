@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"> Spotify </h1>
 
-## Getting Started
+<h6 align="center"> 
+	If you want to preview the application, click <a href="https://tailwind-spotify-gs.vercel.app/">here</a>.
+</h6>
 
-First, run the development server:
+The idea is:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is a UI clone of the Spotify web app, made with Tailwind CSS and React. The goal of this project is to practice and showcase my skills in front-end development, as well as to learn how to use Tailwind CSS, a utility-first framework that allows for fast and responsive design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project is not a fully functional app, but rather a static website that mimics the look and feel of Spotify.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Main technologies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- ReactJs
+- TypeScript
+- Tailwind CSS
+- NextJs
+- Git
 
-## Learn More
+## How to Run the Project Locally
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone this repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/seu-usuario/tailwind-spotify.git
+   cd tailwind-spotify
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```
 
-## Deploy on Vercel
+2. Install the dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   pnpm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```
+
+3. Start the service in development mode:
+
+   ```bash
+   pnpm dev
+
+   ```
+
+4. Open your browser and go to http://localhost:3000 to view the running site. </br></br>
+
+<p align="center">
+  Made with ♥ by Gabriel :wave:
+  </p>
