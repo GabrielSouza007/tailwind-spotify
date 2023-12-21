@@ -13,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-zinc-900 text-zinc-50">{children}</body>
+      <body className="scrollbar-thin scrollbar-thumb-rounded-md scrollbar-thumb-zinc-800 scrollbar-track-zinc-900 h-32 bg-zinc-900 text-zinc-50">
+        {children}
+      </body>
     </html>
   );
 }
