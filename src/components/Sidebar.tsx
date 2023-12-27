@@ -3,7 +3,12 @@ import { HomeIcon, Library, Search } from "lucide-react";
 export function Sidebar() {
   return (
     <aside className="w-72 bg-zinc-950 p-6">
-      <nav className="mt-1 space-y-5">
+      <div className="flex items-center gap-1.5">
+        <div className="h-1 w-1 rounded-full bg-zinc-400"></div>
+        <div className="h-1 w-1 rounded-full bg-zinc-400"></div>
+        <div className="h-1 w-1 rounded-full bg-zinc-400"></div>
+      </div>
+      <nav className="mt-8 space-y-5">
         <a
           href=""
           className="flex items-center gap-3 text-sm font-semibold text-zinc-200"
