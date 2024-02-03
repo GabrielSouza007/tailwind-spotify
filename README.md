@@ -8,7 +8,7 @@ The idea is:
 
 This project is a UI clone of the Spotify web app, made with Tailwind CSS and React. The goal of this project is to practice and showcase my skills in front-end development, as well as to learn how to use Tailwind CSS, a utility-first framework that allows for fast and responsive design.
 
-The project is not a fully functional app, but rather a static website that mimics the look and feel of Spotify.
+The project is not a fully functional app, but rather a static website that mimics the look and feel of Spotify web.
 
 ## Main technologies
 
